@@ -14,6 +14,7 @@
         </groups>
         <classes>
             <class name="com.amcsoftware.testcases.LoginPageTest"/>
+            <class name="com.amcsoftware.testcases.LogoutPageTest"/>
         </classes>
     </test>
 <!--    <test verbose="2" preserve-order="true" name="/Users/VanessaDixon/Documents/InterviewReady/ci-cd">-->
