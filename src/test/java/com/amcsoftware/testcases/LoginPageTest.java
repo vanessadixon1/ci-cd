@@ -14,7 +14,6 @@ public class LoginPageTest extends BaseTest {
 
     @Test(dataProvider="users", dataProviderClass = DataProviders.class)
     public void testingLogin(UsersItem data) {
-        System.getenv("BROWSERSTACK_USERNAME");
         WebDriver driver = DriverFactory.getDriver();
         LoginPage loginPage = new LoginPage();
 //        WebDriver driver = new ChromeDriver();
@@ -26,5 +25,15 @@ public class LoginPageTest extends BaseTest {
 //    public void testingLogout() {
 //        Assert.fail();
 //    }
+
+    @Test(groups = {"Smoke"})
+    public void testingLogout() {
+        System.out.println("Sun smoke");
+    }
+
+    @Test(groups = {"Smoke"})
+    public void testingLogout2() {
+        System.out.println("smoking 2");
+    }
 
 }

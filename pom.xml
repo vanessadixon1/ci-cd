@@ -29,6 +29,14 @@
         <suiteXmlFile>browserstack.xml</suiteXmlFile>
       </properties>
     </profile>
+    <profile>
+      <id>qaSmoke</id>
+      <properties>
+        <runMode>local</runMode>
+        <suiteXmlFile>smoke.xml</suiteXmlFile>
+        <browser>chrome</browser>
+      </properties>
+    </profile>
   </profiles>
 
   <build>
